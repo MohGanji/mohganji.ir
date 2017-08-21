@@ -2,9 +2,6 @@
   color: yellow;
 }
  */
-html, body {
-    min-height: 100%;
-}
 
 body {
     background-color: #440810; 
@@ -32,7 +29,7 @@ li {
     min-height: 20px;
     position:absolute;
     bottom:0;
-    left: -5;
+    left: 0;
 
 }
 
