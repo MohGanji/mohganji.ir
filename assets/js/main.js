@@ -1,14 +1,3 @@
-/*=========================================
-
-Template Name: pixie - Personal Portfolio Template
-Author: mhbthemes
-Version: 1.0
-Design and Developed by: mhbthemes
-
-NOTE: This is the custom jQuery file for the template
-
-=========================================*/
-
 
 (function ($) {
 	"use strict";
@@ -19,7 +8,7 @@ NOTE: This is the custom jQuery file for the template
     jQuery(document).ready(function($){
 
  /*=======================================
-            DEMO PANLE JS
+            DEMO PANEL JS
     =======================================*/
         $("span.color_1").on("click", function(){
             $("body").addClass("color_1_theme").removeClass("color_2_theme color_3_theme color_4_theme");
@@ -44,24 +33,6 @@ NOTE: This is the custom jQuery file for the template
             return false;
         });
 
-    
-    
-    /*=============================
-                Sticky header
-    ==============================*/
-        $('.navbar-collapse a').on('click',function(){
-          $(".navbar-collapse").collapse('hide');
-        });
-
-        $window.on('scroll', function() {
-          if ($(".navbar").offset().top > 100) {
-            $(".navbar-fixed-top").addClass("top-nav-collapse");
-              } else {
-                $(".navbar-fixed-top").removeClass("top-nav-collapse");
-              }
-        });
-      
-        
      /*=============================
                 Smoothscroll js
         ==============================*/
