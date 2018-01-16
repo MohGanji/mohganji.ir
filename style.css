@@ -1,35 +1,4 @@
- /*************************************
-
-Template Name: pixie - Personal Portfolio Template
-Author: mhbthemes
-Version: 1.0
-Design and Developed by: mhbthemes
-
-NOTE: This is main stylesheet of the template.
-
-****************************************/
- /*================================================
-            Table of contents  
-==================================================
- 
-0. BASE CSS
-1. PRELOADER
-2. SECTION TITLE AND SECTION PADDING
-3. HEADER AREA
-4. WELCOME AREA
-5. ABOUT AREA
-6. SERVICES AREA
-7. WORK AREA
-8. STAT AREA
-9. TESTIMONIAL AREA 
-10. CONTACT INFO AREA
-11. FOOTER AREA
-
-====================================================
-            End table content 
-===================================================*/
- 
-@import url('https://fonts.googleapis.com/css?family=Poppins:300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i');
+ @import url('https://fonts.googleapis.com/css?family=Poppins:300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i');
 
  /*================================================
              0 BASE CSS
