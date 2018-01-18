@@ -91,7 +91,7 @@
 
         $(function() {
             element.typed({
-                strings: ["Backend Developer", "Telegram bot developer", "Computer Enthusiast", "Geek", "Linux Lover"],
+                strings: ["Backend Developer", "Telegram bot developer", "Technology Enthusiast", "Linux Lover"],
                 typeSpeed: 100,
                 loop: true,
             });
