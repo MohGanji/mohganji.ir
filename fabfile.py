@@ -1,3 +1,6 @@
+import os
+
+
 """
 fabric file used for remote deploy and logging
 """
@@ -6,9 +9,9 @@ from __future__ import with_statement
 from fabric.api import *
 
 # or @hosts
-env.hosts = ['root@192.241.169.182']
+env.hosts = [os.environ['MOHGANJI_HOST']]
 
-CODE_DIR = '/var/www/mohganji.ir/html'
+CODE_DIR = os.environ['CODE_DIR']
 
 
 def deploy():
